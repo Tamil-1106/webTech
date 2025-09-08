@@ -158,3 +158,34 @@ console.log(emp.ename);
 console.log(emp.eid);
 console.log(emp.eage);
 console.log(emp.esal);
+
+
+
+
+
+
+
+
+// --------------------------------------------------------------------
+
+// !var
+
+console.log(sna); // undefined
+var sna="hello"
+console.log(sna)
+
+
+
+// ! Let 
+
+// console.log(ph); // error
+// let ph=1234567890
+// console.log(ph);
+
+
+
+{
+    var b=20;
+    let r=10;
+    const pi=3.14;
+}

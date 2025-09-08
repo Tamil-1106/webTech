@@ -1,4 +1,13 @@
 
+
+
+// ! Timing in JavaScript
+
+// Timing events are used to execute a code at a specified time or interval.
+// In JavaScript, there are two main timing events:
+// 1. setTimeout(): Executes a function once after a specified delay.
+// 2. setInterval(): Repeatedly executes a function at specified intervals.
+
 console.log("Start")
 console.log("Timing function in js");
 
@@ -50,6 +59,7 @@ let sor=setInterval(sorry,3000); //after every 3-sec it will call the function
 
 // ! clearTimeout(timeoutID)  & clearInterval(intervalID)
 
+
 // clearTimeout()  will stop the setTimeout function
 
 let st1=setTimeout(()=>{
@@ -58,9 +68,11 @@ let st1=setTimeout(()=>{
 clearTimeout(st1)  // it will stop the setTimeout function
 
 
+
 // clearInterval() will stop the setInterval function
 
 let sor1=setInterval(()=>{
     console.log("Iam a setInterval function");
 },3000);
-clearInterval(sor1)  // it will stop the setInterval function
+clearInterval(sor1)  // it will stop the setInterval function   
+

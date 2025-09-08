@@ -249,5 +249,10 @@ console.log(desc)
 let array=[2,7,8,10,11]
 array.forEach((ele)=>{
     console.log(ele+100)
-    
+
 })
+
+
+let arr16=[1,2,3,4,5]
+console.log(arr16.splice(0,3,200,300));
+console.log(arr16);
