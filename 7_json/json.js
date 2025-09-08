@@ -25,8 +25,6 @@
 
 
 
-
-
 let person= {
     pname:"Tamil",
     age:22,
