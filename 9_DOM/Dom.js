@@ -50,3 +50,20 @@ console.log(li);
 let c=document.querySelectorAll(".card")
 console.log(c[1])
 
+
+
+// ! How to get / set content inside elements
+
+// get
+
+let cardss=document.getElementsByClassName("card")
+console.log(cardss[1].innerText);
+console.log(cardss[1].innerHTML);
+
+
+// set
+console.log(cardss[2]);
+cardss[2].innerHTML="Hello World"
+
+// cardss[2].innerText="<h1>Hello World</h1>"
+
