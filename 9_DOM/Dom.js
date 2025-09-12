@@ -1,6 +1,6 @@
 // ! 1. How to target elements
 
-// ?1. By id we can target
+// ?1. By id 
 
 
 let logo=document.getElementById("logo")
@@ -66,4 +66,65 @@ console.log(cardss[2]);
 cardss[2].innerHTML="Hello World"
 
 // cardss[2].innerText="<h1>Hello World</h1>"
+
+
+
+// ! How to apply css 
+
+
+let item=document.getElementsByTagName("li")
+console.log(item);
+
+let about = item[1]
+console.log(about);
+
+about.style.color="red"
+about.style.textDecoration="underline"
+about.style.backgroundColor="black"
+about.style.padding="20px"
+
+
+
+// ! How to add / remove class
+
+let firstcard=document.querySelector(".card")
+
+
+console.log(firstcard.classList)
+
+firstcard.classList.add("tamil")
+console.log(firstcard.classList)
+
+
+// how to remove class
+
+// firstcard.classList.remove("tamil")
+// console.log(firstcard.classList)
+
+// ! How to create elements
+
+let div=document.createElement("div") //to create a div element 
+div.classList.add("circle")
+// cardss[2].after(div)
+
+// cardss[2].before(div)
+
+// cardss[2].append(div)
+
+cardss[2].prepend(div)
+
+
+// 
+
+let footer=document.createElement("footer")
+footer.classList.add("footer")
+footer.innerHTML="<h3>This is footer,dom@2025</h3>" 
+
+
+let Main=document.querySelector("main")
+console.log(Main)
+
+Main.after(footer)
+console.log(footer)
+
 
