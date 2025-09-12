@@ -1,3 +1,7 @@
+
+
+// Fetch is used to retrieve the API
+
 let fetchData = fetch("https://fakestoreapi.com/products")
 console.log(fetchData);  //PROMISE
 let ol=document.querySelector("ol")
