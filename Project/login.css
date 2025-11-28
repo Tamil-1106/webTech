@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.outer{
+    background-color: violet;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.inner{
+    border:2px solid black;
+    height:400px ;
+    width: 500px;
+    background-color: azure;
+    padding:40px;
+    border-radius: 7px;
+   
+
+}
+button{
+    background-color:orangered;
+    color: aliceblue;
+    height: 50px;
+    width: 400px;
+    border-radius: 7px;
+
+}
+#form{
+   height: 40px;
+   width: 400px;
+}
+

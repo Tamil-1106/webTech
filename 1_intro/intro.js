@@ -97,11 +97,11 @@ console.log(typeof country);
 
 // 4.undefined
 
-//Any variable is  declared butnot initialized is called undefined.
+//Any variable is declared but not initialized is called undefined.
 
 let wifename
 console.log(wifename);
-console.log(typeof wifename);
+console.log(typeof wifename);//undefined
 
 
 
@@ -116,7 +116,7 @@ console.log(typeof hasGf);   //object
 // 6.bigint
 
 
-let largenum=2n
+let largenum= 2n
 console.log(largenum);
 console.log(typeof largenum); //bigint
 
@@ -168,7 +168,7 @@ console.log(emp.esal);
 
 // --------------------------------------------------------------------
 
-// !var
+// ! var
 
 console.log(sna); // undefined
 var sna="hello"
@@ -187,5 +187,5 @@ console.log(sna)
 {
     var b=20;
     let r=10;
-    const pi=3.14;
+    const pi=3.14;  //!const
 }

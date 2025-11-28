@@ -64,7 +64,7 @@ console.log(emp);
 // ?--------------------- objects Methods---------------------
 
 
-// ! 1. Objects.keys()
+// ! 1. Object.keys()
 
 let player={
     playername:"Rohit",
@@ -77,7 +77,7 @@ console.log(keys);
 
 
 
-// ! 2.Objects.values()
+// ! 2.Object.values()
 
 // it is used to return all the values in the form of array
 
@@ -87,7 +87,7 @@ console.log(values);
 
 
 
-// ! 3.objects.entries()
+// ! 3.object.entries()
 
 
 // it will return one nested array where all the key in the form of array.
@@ -100,7 +100,7 @@ console.log(key_values);
 // ! 4.Object.freeze()
 
 
-// using this method we cannot  add or delete or update after the execustion of freeze method it will make object frozen.
+// using this method we cannot add or delete or update after the execustion of freeze method it will make object frozen.
 
 let ob1={
     obname:"pen",

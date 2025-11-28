@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #8c9bcd;
+    color: #333;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background: #8dc4d9;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 70px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0033b3;
+}
+
+input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(158, 158, 233);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002b64;
+}
+
+#studentList, #searchResult {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.student-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(29, 197, 188);
+}

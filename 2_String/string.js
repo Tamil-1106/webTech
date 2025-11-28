@@ -14,14 +14,14 @@ console.log(typeof str3);
 
 
 
-//! HOW TO KNOW THE LENGHT OF THE STRING
+//! HOW TO KNOW THE LENGTH OF THE STRING
 
 let str4="hello IM TAMIL"
 
 console.log(str4.length);       //LENGTH OF STRING
 
 
-//!--------------------------------------------------------------------------------
+//!-------------------------------------------------------------------------
 
 
 
@@ -127,7 +127,7 @@ console.log(t4name.includes("Good")); //false case sensitive coz G is uppercase
 
 
 // ! 9.replace()
-// this method is used to replace one string  wih another string
+// this method is used to replace one string  with another string
 //it will returns new string
 
 
@@ -181,6 +181,7 @@ console.log(str5.substring(-4))//good
 console.log(str5.substring(4,0))  //good
 
 //  ! 14. string Interpolation
+
 let a= 40
 let b= 20
 console.log("the sum of a and b is " + (a+b)); //old method

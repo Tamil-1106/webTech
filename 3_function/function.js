@@ -1,3 +1,5 @@
+// Function is a block of code which is used to to specific task
+
 // ! 1.Named function
 
 function display()
@@ -43,7 +45,7 @@ add(10,20)
 
 
 
-// !Arrow function
+// ! Arrow function
 
 let multiply =(a,b)=>{
     console.log(a*b);
@@ -66,13 +68,13 @@ outer();
 
 
 //  ! lexical Scopping
-// In nested function inner function can access outer function variables but outer function cant access the properties of inner function , this is called as lexical scoping
+// In nested function inner function can access outer function  but outer function cannot access the properties of inner function , this is called as lexical scoping
 
 let parent=()=> {
     
     let a=10
     let child=()=>{
-         let b=20
+        let b=20
         console.log(a);
         console.log(b);
     }
@@ -108,9 +110,11 @@ hof (()=>{
 
 
 //! IIFE Immediately Invoked Function Expression
+
 (function()
 {
         console.log("I am an IIFE Function")
-    })();
+})
+();
     
 

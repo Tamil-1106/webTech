@@ -52,6 +52,4 @@ let changebg1=()=>{
    box.style.backgroundColor="green"
    console.log("heloo");
    
-
 }
-
